@@ -1,0 +1,106 @@
+title: Asteroides
+description: Repositorio para curvas de luz e información de asteroides obtenidos en la cámara Schmidt
+baseurl: "https://asteroidesinaoe.github.io"
+
+username: Asteroides
+typing_text: Base de datos
+email: INAOERep@outlook.com
+github_username: AsteroidesINAOE
+twitter_username: inaoe_mx
+
+show_asteroides_card: true
+# asteroides_title: The will be displayed as the title in the About Me section
+asteroides_title: ¿Qué es un asteroide?
+# asteroides_description: This will be displayed under the title.
+asteroides_description:
+
+show_fotometria_card: true
+# fotometria_title: The will be displayed as the title in the About Me section
+fotometria_title: Fotometría
+# fotometria_description: This will be displayed under the title.
+fotometria_description:
+
+show_espectroscopia_card: true
+# espectroscopia_title: The will be displayed as the title in the About Me section
+espectroscopia_title: Espectroscopía
+# espectroscopia_description: This will be displayed under the title.
+espectroscopia_description:
+
+show_actividades_card: true
+# actividades_title: The will be displayed as the title in the About Me section
+actividades_title: Actividades
+# actividades_description: This will be displayed under the title.
+actividades_description:
+
+show_aprender_card: true
+# aprender_title: The will be displayed as the title in the About Me section
+aprender_title: Aprender más
+# aprender_description: This will be displayed under the title.
+aprender_description:
+
+show_infografias_card: true
+# infografias_title: The will be displayed as the title in the About Me section
+infografias_title: Infografías
+# infografias_description: This will be displayed under the title.
+infografias_description:
+
+show_riesgo_card: true
+# riesgo_title: The will be displayed as the title in the About Me section
+riesgo_title: Riesgo de impacto
+# riesgo_description: This will be displayed under the title.
+riesgo_description:
+
+show_glosario_card: true
+# glosario_title: The will be displayed as the title in the About Me section
+glosario_title: Glosario
+# glosario_description: This will be displayed under the title.
+glosario_description:
+
+# CONTACT SECTION
+show_contact_card: true
+contact_title: Contacto
+contact_description: 
+
+# GITHUB-METADATA
+# Set this to your forked repository
+# > e.g. <user>/<user>.github.io
+repository: AsteroidesINAOE/AsteroidesINAOE.github.io
+
+projects:
+  # sortby:
+  # > set this to pushed, if you want to sort your github repositories by time.
+  # > set this to stars, if you want to sort your github repositories by stars.
+  sort_by: pushed
+  exclude:
+    # archived:
+    # > setting this to true, will exclude archived repositories
+    # > setting this to false, will also display archived repositories
+    archived: true
+    # forks:
+    # > setting this to true, will exclude forked repositories
+    # > setting this to false, will also display forked repositories
+    forks: true
+    # projects: A list of the repository names you want to exclude from the listing.
+    projects:
+    # - repo1-to-be-excluded
+    # - repo2-to-be-excluded
+
+# GOOGLE-ANALYTICS
+# Set the id, if you want to track your website with Google Analytics
+# > set this to "", if you do not want to track with Google Analytics
+google-analytics:
+  id: ""
+### END OF VALUES YOU SHOULD CHANGE ###
+
+plugins:
+  - "jekyll-github-metadata"
+
+exclude:
+  [
+    "_assets",
+    "Gemfile",
+    "Gemfile.lock",
+    "gulpfile.js",
+    "node_modules",
+    "package.json",
+  ]
